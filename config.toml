@@ -1,0 +1,13 @@
+baseURL = 'https://blog.miscore.win/'
+languageCode = 'zh-cn'
+title = "J178's Blog"
+theme = 'PaperMod'
+
+enableRobotsTxt = true
+
+## ref https://utteranc.es/
+[params.utteranc]
+  enable = true
+  repo = "j178/blog"
+  issueTerm = "title"
+  theme = "github-light"
