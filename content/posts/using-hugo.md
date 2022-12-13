@@ -19,13 +19,21 @@ PaperMod 非常对我的胃口。
 ### 添加评论系统
 使用基于 GitHub Issue 的 [utteranc.es](https://utteranc.es/) 评论系统。
 1. 在 Repo 中安装 https://github.com/apps/utterances
+2. 创建 `layouts/partials/comments.html` 文件，内容如下：
+```html
+<script src="https://utteranc.es/client.js"
+        repo="j178/blog"
+        issue-term="title"
+        label="blog"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+```
 2. 在 `config.toml` 中添加如下配置：
 ```toml
-[params.utteranc]
-  enable = true
-  repo = "j178/blog"
-  issueTerm = "title"
-  theme = "github-light"
+[params]
+  comments = true
 ```
 
 ### Hexo tags 不规范
