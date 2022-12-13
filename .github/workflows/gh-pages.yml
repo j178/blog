@@ -28,13 +28,16 @@ jobs:
           submodules: true
           fetch-depth: 0
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v2
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
       - name: Build
-        run: hugo --minify
+        env:
+          HUGO_ENV: production
+        run: hugo --minify --baseURL ${{ steps.pages.outputs.url }}
       # Uploads an artifact named `github-pages`
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
