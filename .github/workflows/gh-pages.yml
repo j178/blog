@@ -27,7 +27,7 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
-      - name: Setup Pages
+      - name: Configure Pages
         id: pages
         uses: actions/configure-pages@v2
       - name: Setup Hugo
@@ -37,7 +37,7 @@ jobs:
       - name: Build
         env:
           HUGO_ENV: production
-        run: hugo --minify --baseURL ${{ steps.pages.outputs.url }}
+        run: hugo --minify --baseURL ${{ steps.pages.outputs.base_url }}
       # Uploads an artifact named `github-pages`
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
