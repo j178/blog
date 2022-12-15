@@ -48,13 +48,11 @@ categories: [Linux]
 
 ### systemd机制
 
-service <script> COMMAND [options] 实际上是运行一个sysvinit程序或者upstart作业，比如service nginx start实际执行的命令是 /etc/init.d/nginx start，start命令实际是由nginx这个脚本来做的。
+service \<script\> COMMAND [options] 实际上是运行一个sysvinit程序或者upstart作业，比如service nginx start实际执行的命令是 /etc/init.d/nginx start，start命令实际是由nginx这个脚本来做的。
 
 
 
 ### 参考链接
 
 1. http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html
-
-
 2. http://www.ruanyifeng.com/blog/2013/08/linux_boot_process.html
