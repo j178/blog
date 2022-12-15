@@ -39,17 +39,17 @@ pygmentsUseClasses = true
 
 [[menu.main]]
 name = 'Archive'
-url = 'archives'
+url = '/archives/'
 weight = 5
 
 [[menu.main]]
 name = 'Search'
-url = 'search/'
+url = '/search/'
 weight = 10
 
 [[menu.main]]
 name = 'Tags'
-url = 'tags/'
+url = '/tags/'
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
