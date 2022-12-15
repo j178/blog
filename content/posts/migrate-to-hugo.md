@@ -55,3 +55,8 @@ cloudflare 开启了 proxied 之后的 CNAME 并不是普通的 CNAME，而是�
 #### Hexo tags 不规范
 #### 文件名格式
 #### 添加 favicon
+
+## Ref
+- https://www.brycewray.com/posts/2022/06/get-good-git-info-hugo/
+- https://dennislee.xyz/2020/hugo-jekyll-style-date-and-slug-from-filename/
+- https://docspring.com/blog/posts/adding-a-timestamp-to-hugo-post-filenames/
