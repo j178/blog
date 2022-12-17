@@ -7,6 +7,7 @@ draft: true
 
 无意中看到了自己的 GitHub 上的 [blog source](https://github.com/j178/blog)，发现上一次折腾博客已经是 5 年多以前了。
 那会儿还在上学，刚接触编程其实也没多久，喜欢折腾各种没有技术含量的东西(从那时候就开始走上了歪路:(
+![image](https://user-images.githubusercontent.com/10510431/208245025-7720f0db-7056-4223-8c30-77dd881dab18.png)
 
 依稀记得之前是用 Hexo 本地构建出静态文件后，push 到 github pages 部署的。并且由 cloudflare 做 CDN 和 https 支持。
 不过由于长时间没有维护，连域名都弄丢了。而且 5 年之后，想让基于 Node 的 Hexo 再成功跑起来，也是相当不容易。所以这一次我决定重头开始，尝试用 Hugo 来构建博客，并用上(白嫖) GitHub 的一些新特性。
@@ -25,8 +26,11 @@ draft: true
 4. 等待 GitHub 为你的自定义域名申请 Let's Encrypt 证书，[这个过程可能需要几个小时](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)。
 
 cloudflare 开启了 proxied 之后的 CNAME 并不是普通的 CNAME，而是由 cloudflare 服务器接管了。以下是关闭 proxied 前后的 dig 的结果：
+    
 ![image](https://user-images.githubusercontent.com/10510431/207522605-cb76812b-f69a-42f3-a7fd-c7930125baaf.png)
+
 关闭 proxied 之后，github pages 页面可以正常申请证书了：
+
 ![image](https://user-images.githubusercontent.com/10510431/207522618-00ab0cb3-f3de-4703-bea4-7f050e07f35f.png)
 
 ## 迁移问题
