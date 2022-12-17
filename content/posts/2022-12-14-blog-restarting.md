@@ -26,14 +26,14 @@ draft: true
 4. 等待 GitHub 为你的自定义域名申请 Let's Encrypt 证书，[这个过程可能需要几个小时](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)。
 
 cloudflare 开启了 proxied 之后的 CNAME 并不是普通的 CNAME，而是由 cloudflare 服务器接管了。以下是关闭 proxied 前后的 dig 的结果：
-    
+
 ![image](https://user-images.githubusercontent.com/10510431/207522605-cb76812b-f69a-42f3-a7fd-c7930125baaf.png)
 
 关闭 proxied 之后，github pages 页面可以正常申请证书了：
 
 ![image](https://user-images.githubusercontent.com/10510431/207522618-00ab0cb3-f3de-4703-bea4-7f050e07f35f.png)
 
-## 迁移问题
+## 迁移记录
 
 ### 添加评论系统
 
@@ -59,6 +59,30 @@ cloudflare 开启了 proxied 之后的 CNAME 并不是普通的 CNAME，而是�
     [params]
       comments = true
     ```
+
+### 配置 Syntax Highlighting
+
+Hugo 内置了 [chroma](https://github.com/alecthomas/chroma) 来实现代码的语法高亮，有两种实现方式：
+
+1. 通过元素的 `style` 属性直接控制，对应 `highlight.noclasses = false`，是默认情况。
+2. 使用 CSS Classes 来控制，对应 `highlight.noclasses = false`。
+   这种情况下需要自己提供 CSS，可以通过 `hugo gen chromastyles --style=github` 来生成。
+
+Chroma 支持在 code fence 的 info string 后提供参数，比如
+
+````md
+```go {linenos=table,hl_lines=[7,"13-14"],linenostart=199}
+...
+```
+````
+
+就可以生成这样的效果：
+
+![image](/img/2022-12-18-03-46-17.png)
+
+但是，一些主题(比如 PaperMod)会使用 highlight.js 来实现代码高亮，而 highlight.js 是不支持高亮行的。
+这种情况下要么放弃高亮行的功能，直接使用主题提供的开箱即用的方案，要么关闭主题的 HLJS，配置 Hugo 的 Chroma 来实现代码高亮。
+不过要想调出一个与主题风格一致的代码高亮，还是需要花一些时间的。（有的主题可能还包括 dark mode，这就更麻烦了）
 
 ### 配置调整
 

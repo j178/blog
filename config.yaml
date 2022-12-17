@@ -6,7 +6,6 @@ enableInlineShortcodes: true
 enableGitInfo: true
 enableRobotsTXT: true
 enableEmoji: true
-pygmentsUseClasses: true
 frontmatter:
   date: [':default']
 permalinks:
@@ -55,6 +54,10 @@ outputs:
     - RSS
     - JSON
 markup:
+  highlight:
+    # use CSS class, not inline CSS styles. 
+    noClasses: false
+    codeFences: true
   goldmark:
     renderer:
       unsafe: true
