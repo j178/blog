@@ -1,5 +1,6 @@
 ---
  title: TensorFlow 初试
+ slug: tensorflow
  date: 2017-01-19 23:55:43
  tags:  [TensorFlow]
  categories: [机器学习]

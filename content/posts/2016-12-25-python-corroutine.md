@@ -1,5 +1,6 @@
 ---
 title: Python 协程基础
+slug: python-coroutine
 date: 2016-12-25 00:53:26
 tags: [Python, 协程]
 categories: [Coding]

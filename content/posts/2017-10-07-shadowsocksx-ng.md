@@ -1,5 +1,6 @@
 ---
 title: ShadowsocksX-NG 工作原理
+slug: shadowsocksx-ng
 date: 2017-10-07 23:43:49
 tags: [app]
 ---

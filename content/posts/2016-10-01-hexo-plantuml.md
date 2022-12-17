@@ -1,5 +1,6 @@
 ---
 title: 'PlantUML: 用程序员的方式画图'
+slug: hexo-plantuml
 date: 2016-10-01 13:31:03
 tags: [hexo, plantuml]
 categories: [Tool]

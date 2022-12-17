@@ -1,5 +1,6 @@
 ---
 title: 'HTTP for Human: 深入研究 Requests'
+slug: requests-http-for-human
 tags: [Python, requests]
 categories: [Coding]
 ---

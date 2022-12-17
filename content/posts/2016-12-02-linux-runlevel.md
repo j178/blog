@@ -1,5 +1,6 @@
 ---
 title: Linux 中的 runlevel
+slug: linux-runlevel
 date: 2016-12-02 04:27:13
 tags: [linux]
 categories: [Linux] 

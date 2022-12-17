@@ -1,5 +1,6 @@
 ---
 title: Jupyter Notebook 初试
+slug: jupyter-notebook
 date: 2016-12-18 02:39:56
 tags: [Python]
 categories: [Coding]

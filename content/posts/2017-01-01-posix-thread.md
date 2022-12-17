@@ -1,5 +1,6 @@
 ---
 title: Posix Thread 基础
+slug: posix-thread
 date: 2017-01-01 00:14:03
 tags: [Linux, Thread]
 tegories: [Coding]

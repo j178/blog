@@ -1,5 +1,6 @@
 ---
 title: 'Arrow: better dates and times for Python'
+slug: python-arrow
 date: 2016-10-02 00:22:47
 tags: [Python, arrow]
 categories: [Coding]

@@ -1,5 +1,6 @@
 ---
 title: '设计模式(一): 原型模式'
+slug: prototype-pattern
 date: 2016-09-29 11:19:46
 tags: [java, 设计模式, 原型模式]
 categories: [Coding]

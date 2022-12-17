@@ -1,5 +1,6 @@
 ---
 title: 'Python 图片处理库: Pillow'
+slug: python-pillow
 tags:
 - Python
 - Pillow

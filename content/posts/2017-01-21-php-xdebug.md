@@ -1,5 +1,6 @@
 ---
 title: PHP 使用 xdebug 调试之路
+slug: php-xdebug
 tags:
 - PHP
 - xdebug

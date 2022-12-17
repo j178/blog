@@ -1,5 +1,6 @@
 ---
 title: requests 如何编码 multipart/form-data
+slug: requests-form-data
 date: 2017-10-09 19:37:13
 tags: [requests, multipart, form-data]
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  由Python的super()函数想到的
+slug:   python-super
 date:   2016-07-10 21:15:11 +0800
 categories: [Coding]
 tags: [Python, super]

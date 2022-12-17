@@ -1,5 +1,6 @@
 ---
 title: 'Python 中的时间模块'
+slug: python-time-datetime
 tags:
   - Python
 categories:

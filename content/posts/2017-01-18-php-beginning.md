@@ -1,5 +1,6 @@
 ---
 title: PHP 基础回顾
+slug: php-beginning
 date: 2017-01-18 21:00:43
 tags: [PHP]
 categories: [Coding]

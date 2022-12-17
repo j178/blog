@@ -1,5 +1,6 @@
 ---
  title: 跨域相关
+ slug: cross-domain
  date: 2017-01-20 23:55:43
  tags:  [同源策略, 跨域]
  categories: [前端]

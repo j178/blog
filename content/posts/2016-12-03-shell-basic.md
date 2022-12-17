@@ -1,5 +1,6 @@
 ---
 title: Shell 基础
+slug: shell-basic
 date: 2016-12-03 23:45:38
 tags: [shell]
 categories: [Linux]

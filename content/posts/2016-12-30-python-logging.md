@@ -1,5 +1,6 @@
 ---
 title: Python logging 基础
+slug: python-logging
 date: 2016-12-30 12:23:23
 tags: [Python, logging]
 categories: [Coding]

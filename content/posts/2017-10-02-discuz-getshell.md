@@ -1,5 +1,6 @@
 ---
 title: Discuz X 3.4 由任意文件删除到 Getshell
+slug: discuz-getshell
 date: 2017-10-02 00:14:34
 tags: [Hack]
 ---

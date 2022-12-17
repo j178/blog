@@ -1,5 +1,6 @@
 ---
 title: Composer 初试
+slug: php-composer
 tags:
   - PHP
   - Composer
