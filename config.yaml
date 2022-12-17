@@ -24,7 +24,9 @@ params:
       你好，我是 J178，一名普通的程序员，喜欢研究各种乱七八糟的东西，偶尔会在这里记录一下，谢谢~
   socialIcons:
     - name: github
-      url: 'https://github.com/j178'
+      url: https://github.com/j178
+    - name: email
+      url : i@j178.dev
     - name: twitter
       url: 'https://twitter.com/niceoe'
     - name: Rss
