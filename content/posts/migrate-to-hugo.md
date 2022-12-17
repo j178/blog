@@ -49,12 +49,13 @@ cloudflare 开启了 proxied 之后的 CNAME 并不是普通的 CNAME，而是�
 
 ### 配置调整
 
-#### 主题
-随便翻了下，发现 PaperMod 非常对我的胃口，就用它了。
-
-#### Hexo tags 不规范
-#### 文件名格式
-#### 添加 favicon
+- [x] 选择主题
+- [ ] 修复不规范的 Hexo tags
+- [ ] 修复文件名格式，统一 slug
+- [x] 添加 favicon
+- [x] 配置目录、social
+- [x] 配置 suggest changes
+- [ ] 配置 twitter card
 
 ## Ref
 - https://www.brycewray.com/posts/2022/06/get-good-git-info-hugo/
