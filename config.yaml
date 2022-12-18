@@ -35,7 +35,7 @@ params:
     - name: Rss
       url: index.xml
   editPost:
-    URL: 'https://github.com/j178/blog/issues/new?title=Suggest%20Changes:%20'
+    URL: 'https://github.com/j178/blog/edit/master/content'
     Text: "Suggest Changes"
     appendFilePath: true
 menu:
